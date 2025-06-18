@@ -11,4 +11,3 @@ console.log(typeof(z)+'\n')
 console.log(typeof(k)+'\n')
 console.log(typeof(j)+'\n')
 console.log(typeof(l)+'\n')
-

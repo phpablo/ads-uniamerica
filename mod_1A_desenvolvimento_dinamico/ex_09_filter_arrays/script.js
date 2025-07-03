@@ -39,3 +39,16 @@ console.log(r1);
 let r2 = numeros.filter(value => value < 3)
 // Exibe os números menores que 3
 console.log(r2);
+
+let pessoas = [
+  {nome: 'gohan', idade: 12},
+  {nome: 'Gothem', idade: 10},
+  {nome: 'Bonieky Lacerda', idade: 90},
+]
+
+let res2 = pessoas.filter(
+  function(valor) {
+    return valor.nome.length > 7
+  }
+)
+console.log(res2)
